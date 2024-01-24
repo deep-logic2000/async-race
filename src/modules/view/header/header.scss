@@ -1,0 +1,13 @@
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}

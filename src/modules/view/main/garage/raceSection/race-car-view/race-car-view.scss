@@ -1,0 +1,90 @@
+.header-car-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.race-car-wrapper {
+    width: 100%;
+    border-bottom: 1px dashed rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.button_action {
+    width: 80px;
+    height: 25px;
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(108, 115, 146);
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button_select {
+    background-color: rgb(184, 159, 255);
+
+    &:hover {
+        background-color: #2b1bb3;
+    }
+}
+
+.button_remove {
+    background-color: rgb(255, 136, 136);
+
+    &:hover {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+.car-image-wrapper {
+    width: 60px;
+    height: 30px;
+}
+
+.race-wrapper {
+    align-self: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+.finish-flag-wrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 90px;
+    bottom: 0;
+}
+
+.body-car-wrapper {
+    display: flex;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.button_start-engine,
+.button_stop-engine {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 224, 224);
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.car-name-wrapper {
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(224, 201, 165);
+}

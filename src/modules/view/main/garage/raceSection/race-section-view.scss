@@ -1,0 +1,56 @@
+.winner-wrapper {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    top: 250px;
+    bottom: 0;
+}
+
+.winner-text {
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #fff;
+    z-index: 2;
+}
+
+.pagination-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.button_prev,
+.button_next {
+    margin-right: 10px;
+    padding: 5px 20px;
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #505050;
+        color: #fff;
+    }
+}
+
+.page-number-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

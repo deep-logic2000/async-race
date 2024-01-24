@@ -1,0 +1,29 @@
+.table-wrapper {
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(68, 70, 148);
+}
+
+.table-header__cell {
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.table-header__cell_wins,
+.table-header__cell_time {
+    cursor: pointer;
+}
+
+.sort_asc {
+    &::after {
+        content: '▼';
+        margin-left: 10px;
+    }
+}
+
+.sort_desc {
+    &::after {
+        content: '▲';
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.button_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(184, 159, 255);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 30px;
+
+    &:hover {
+        background-color: #2b1bb3;
+    }
+}
+
+.button__selected {
+    background-color: #2b1bb3;
+}
